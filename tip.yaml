@@ -1,0 +1,13 @@
+# 명령어 잘못 쳐서 git bash에 '>' 나올때
+ctrl + c : 서버 종료 로 빠져 나옴
+
+# 여러가지 에러
+# git status fatal: not a git repository (or any of the parent directories):
+해당 폴더에 .git 숨긴 폴더가 없다는 뜻. 
+그래서 원하는 폴더를 지정해주면된다. 
+원래는 powershell같은 터미널서 해도 될건데 잘 안됨
+git bash에서 폴더 이동 및 지정
+
+pwd : 현재 디렉토리 조회
+cd : 디렉토리 이동  예시 :  cd /c/Users/xx/yy  
+
