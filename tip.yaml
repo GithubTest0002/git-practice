@@ -11,3 +11,6 @@ git bash에서 폴더 이동 및 지정
 pwd : 현재 디렉토리 조회
 cd : 디렉토리 이동  예시 :  cd /c/Users/xx/yy  
 
+# commit message editor vim editor로 바꾸기 
+1. git config -e --global 
+2. [core]항목에 editor = vim 추가 후 저장
