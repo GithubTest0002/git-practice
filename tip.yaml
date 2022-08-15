@@ -14,3 +14,15 @@ cd : 디렉토리 이동  예시 :  cd /c/Users/xx/yy
 # commit message editor vim editor로 바꾸기 
 1. git config -e --global 
 2. [core]항목에 editor = vim 추가 후 저장
+다른 방법으로는..
+1. git config --global -e
+2. 아래 2줄 코드 삭제
+[core]
+excludesfile = /Users/(폴더명)/.gitignore_global
+editor = code --wait
+
+# git config(에디터)를 VS code에서 열기 (위에꺼랑 반대 상황)
+git config --global core.editor "code --wait"
+code 자리에 원하는 편집 프로그램의 .exe파일 경로 연결
+--wait : 에디터에서 수정하는 동안 CLI를 정지
+
